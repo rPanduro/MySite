@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="image/Hastiget-icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos_form.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="cabecera dis-flex"> 
+        <img class="logo-head" src="Imagenes/log-removebg-preview.png" alt="">
+        <div class="anclas">   
+            <a class="volver-ancla poppins-medium" href="Index.html">Volver al sitio</a> 
+        </div>
+    </header>  
+    <section id="fondos">
+        <table class="table-quest">
+            <thead >
+                <tr class="fila-head">
+                    <th class="table-head poppins-bold" colspan="5" >Queremos conocerte mejor:</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="fila-1">
+                    <td class="col-fil1 poppins-medium bg-red1-1">
+                        Sexo
+                    </td>
+                    <td class="col-fil1 poppins-medium bg-red2-2">
+                        Ingresa una opinion para el sitio
+                    </td>
+                    <td class="col-fil1 poppins-medium bg-red1-1">
+                        ¿De que parte eres?
+                    </td>
+                    <td class="col-fil1 poppins-medium bg-red2-2">
+                        ¿Como conociste nuestra pagina?
+                    </td>
+                    <td class="col-fil1 poppins-medium bg-red1-1">
+                        ¿Nuestro contenido te pareció util?
+                    </td>
+                </tr>
+                <tr class="fila-2 poppins-regular">
+                    <form action="https://formspree.io/f/mleqkvlp" method="post">
+                    <td class="col-fil2 bg-red1-1"> 
+							<div><input value="hombre" name="sexo" id="man" type="radio"><label for="man">Hombre</label></div>
+							<div><input value="mujer" name="sexo" id="girl" type="radio"><label for="girl">Mujer</label></div>
+                            <div><input value="none" name="sexo" id="not" type="radio"><label for="not">Prefiero no decirlo</label></div>
+                    </td>
+                    <td class="col-fil2 bg-red2-2">
+                        <div><textarea class="opinion" name="Opinion"></textarea></div>
+                    </td>
+                    <td class="col-fil2 bg-red1-1">
+							<div><input value="Asia" name="ubication" id="Asia" type="radio"><label for="man">Asia</label></div>
+							<div><input value="America" name="ubication" id="America" type="radio"><label for="girl">America</label></div>
+							<div><input value="Oceania" name="ubication" id="Oceania" type="radio"><label for="not">Oceania</label></div>
+							<div><input value="Africa" name="ubication" id="Africa" type="radio"><label for="not">Africa</label></div>
+							<div><input value="Antartida" name="ubication" id="Antartida" type="radio"><label for="not">Antartida</label></div>
+                    </td class="col-fil2">
+                    <td class="col-fil2 bg-red2-2">
+							<div><input value="Instagram" id="insta" type="checkbox"><label for="insta">Instagram</label></div>
+							<div><input value="Facebook" id="face" type="checkbox"><label for="face">Facebook</label></div>
+							<div><input value="Tiktok" id="tiktok" type="checkbox"><label for="tiktok">TikTok</label></div>
+							<div><input value="Amigos" id="friend" type="checkbox"><label for="friend">Amigos</label></div>
+                            <div><input value="Otros" id="other" type="checkbox"><label for="other">Otro</label></div>
+                    </td>
+                    <td class="col-fil2 bg-red1-1">
+							<div><input value="Me fue muy util" name="Utilidad" id="muy-util" type="radio"><label for="muy-util">Me fue muy util</label></div>
+							<div><input value="Me fue algo util" name="Utilidad" id="util" type="radio"><label for="util">Me fue algo util</label></div>
+							<div><input value="No fue para nada util" name="Utilidad" id="no-util" type="radio"><label for="no-util">No fue para nada util</label></div>
+                    </td>
+                    
+                </tr>
+                <tr class="fila-3">
+                    <td class="col-fil3 poppins-bold" colspan="5"><button class="button-submit" type="submit"> Enviar </button></td>
+                </tr>
+            </form>
+            </tbody>
+            <tfoot>
+            </tfoot>
+        </table>
+    </section>
+    <footer id="main-footer">
+		<p>Contáctanos</p>
+		<div class="container">
+			<form action="mailto:rafaelb030903@gmail.com" target="_blank">
+				<button id="correo">
+				<svg width="37" height="37" fill="currentColor" class="bi bi-envelope-open" viewBox="0 0 16 16">
+					<path d="M8.47 1.318a1 1 0 0 0-.94 0l-6 3.2A1 1 0 0 0 1 5.4v.817l5.75 3.45L8 8.917l1.25.75L15 6.217V5.4a1 1 0 0 0-.53-.882zM15 7.383l-4.778 2.867L15 13.117zm-.035 6.88L8 10.082l-6.965 4.18A1 1 0 0 0 2 15h12a1 1 0 0 0 .965-.738ZM1 13.116l4.778-2.867L1 7.383v5.734ZM7.059.435a2 2 0 0 1 1.882 0l6 3.2A2 2 0 0 1 16 5.4V14a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V5.4a2 2 0 0 1 1.059-1.765z"/>
+				</svg>
+				</button>
+			</form>
+			<form action="https://www.facebook.com/profile.php?id=100009715024191&mibextid=ZbWKwL" target="_blank">
+				<button id="facebook">
+				<svg width="37" height="37" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+					<path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+				</svg>
+				</button>
+			</form>
+			<form action="https://x.com/RafaelBara91084" target="_blank">
+				<button id="twitter">
+				<svg width="37" height="37" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
+					<path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+				</svg>
+				</button>
+			</form>
+			<form action="https://www.youtube.com/channel/UCcUQD7q49vhr-W_My5WPegQ" target="_blank">
+				<button id="youtube">
+				<svg width="37" height="37" fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
+					<path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z"/>
+				</svg>
+				</button>
+			</form>
+			
+		</div>
+		<p><a href="Cercana2.html">Formulario</a></p>
+		<p>&copy; GameverseInsider 2024</p>
+	</footer> 
+</body>
+</html>
